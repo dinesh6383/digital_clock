@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.dropdown {
+  margin-right: 50px;
+}
+
+#info {
+  font-size: 80px;
+}
+
+#clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.round {
+  border: 1px solid white !important;
+}
+
+#meridian, #day, #month {
+  font-size: 20px;
+}
+
+#dmode {
+  position: absolute;
+  right: 16%;
+  width: 3%;
+}
+
+#lmode {
+  position: absolute;
+  right: 20%;
+  width: 3%;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.title {
+  color: white !important;
+}
+
+#day {
+  position: absolute;
+  left: 40px;
+}
+
+#month {
+  position: absolute;
+  left: 120px;
+}
+#about .time {
+  margin: 0px 15px;
+}
+#about .value{
+  width: 25%;
+  margin-left: 15px;
+}
+#about .manage{
+  width: 23%;
+    margin-top: -29%;
+    margin-left: 75%;
+}
+#about .conclusion{
+  width: 45%;
+    margin-left: 27%;
+    margin-top: -12%;
+}
+.hide {
+  display: none;
+}
+
+@media (max-width: 1020px) {
+  .navbar-brand {
+    font-size: 67px;
+  }
+
+  .btn {
+    width: 103%;
+    margin-top: 20px;
+    height: 70px;
+    font-size: 35px;
+  }
+
+  .dropdown-item {
+    font-size: 35px;
+  }
+
+  #clock {
+    position:relative;
+    margin-top:-89%;
+    width: 85%;
+    text-align: center;
+  }
+
+  #meridian {
+    font-size: 50px;
+  }
+
+  #dmode {
+    position: absolute;
+    left: 3%;
+    top:100%;
+    width: 8%;
+  }
+
+  #lmode {
+    position: absolute;
+    left: 15%;
+    top:100%;
+    width: 8%;
+  }
+  #about .time {
+    margin: 100px 15px 0px;
+    font-size: 33px;
+  }
+  #about .value{
+    width: 100%;
+      margin-top: 35%;
+      margin-left: 15px;
+      font-size: 33px;
+  }
+  #about .manage{
+    display:none;
+  }
+  #about .conclusion{
+    display:none;
+  }
+}

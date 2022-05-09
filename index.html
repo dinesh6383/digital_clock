@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Digital Clock.</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <section id="head">
+    <nav class="navbar navbar-light">
+      <div class="container-fluid">
+        <span id="tit" class="navbar-brand mb-0 h1">Digital Clock</span>
+        <img id="dmode" src="images/moon.png" onclick="dmode()" alt="">
+        <img id="lmode" src="images/sun.png" onclick="lmode()" alt="">
+        <div class="dropdown">
+          <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Country</button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a id="india" class="dropdown-item" href="#">INDIA</a></li>
+            <li><a id="america" class="dropdown-item" href="#">AMERICA</a></li>
+            <li><a id="singapore" class="dropdown-item" href="#">SINGAPORE</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section id="about">
+    <div class="time">
+      <h2>Time</h2>
+      <p>Time plays the most important role in life. It is the most wonderful and practical thing. It has no beginning and no end. All things are born on time, grown on time and die on time. You cannot have command on time, nor can you analyze and criticize it.
+        It is very crucial that you understand the value of time and manage it effectively; otherwise, time can create an enormous impact on your life. You need to comprehend and regard the value of time by not wasting it.</p>
+    </div>
+
+    <div class="value">
+      <h2>Value of Time</h2>
+      <p>Time management can be defined as "the process of planning and exercising conscious control over the amount of time allocated to the various activities in one's life." It is a skill that can be acquired through training and practice.
+        In order to manage your time effectively, you must know how you spend your time now. Record how much time you spend on each activity during a week, then review what you have recorded. Identify the important tasks and the ones that do not serve any real purpose.
+        Useless activities can be eliminated, and important tasks can be rearranged in a more efficient schedule. The most effective time management techniques include: planning your day the night before,
+        setting priorities, delegating responsibilities, using a planner or calendar, working on one task at a time, utilizing </p>
+    </div>
+
+    <div class="manage">
+      <h2>Time management</h2>
+      <p>Time management has become the most crucial task in today's busy world. It is the art of arranging, organizing, scheduling and budgeting one time for the purpose of generating more effective work and productivity.
+        Managing time is the effect of the value of time. It is important for everyone, including students, teachers, factory workers, professionals, homemakers and all.
+        Managing time is not necessarily about getting a lot of things done. Instead, it is about getting the right things, the things that truly need to be done.
+        So it is essential to remain focused and in control of time instead of rushing frantically from one activity to the next until you get exhausted.The most effective time management techniques include: planning your day. </p>
+    </div>
+
+    <div class="conclusion">
+      <h2>conclusion</h2>
+      <p>Time is a very vital substance in our lives. By realizing the value of time and utilizing it effectively, we will not only achieve our goals to the utmost personal satisfaction but can also contribute to the advancement and development of our society and country.
+         We need to respect time, and by this, we can get the best out of it. So our advice is that you should utilize your time as effectively as possible and feel content by finishing everything on time.</p>
+    </div>
+    </section>
+
+
+
+
+  <section id="clock">
+    <div class="">
+      <h1 id="info">Choose ur country..</h1>
+      <span id="hour"></span>
+      <span id="minute"></span>
+      <span id="second"></span>
+      <span id="meridian"></span>
+      <span id="day"></span>
+      <span id="month"></span>
+    </div>
+  </section>
+
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
